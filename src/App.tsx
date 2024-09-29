@@ -1,6 +1,7 @@
-import React from 'react';
-import CameraTable from './components/CameraTable';
+import React, { Suspense, lazy } from 'react';
 import ErrorBoundary from './ErrorBoundary'; 
+
+const CameraTable = lazy(() => import('./components/CameraTable'));
 
 const App: React.FC = () => {
   return (
@@ -8,7 +9,9 @@ const App: React.FC = () => {
       <header>
       </header>
       <ErrorBoundary>
-        <CameraTable />
+        <Suspense fallback={<div>Loading...</div>}>
+          <CameraTable />
+        </Suspense>
       </ErrorBoundary>
     </div>
   );
