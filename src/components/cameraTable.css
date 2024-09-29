@@ -1,0 +1,89 @@
+/* Table Container */
+.camera-table-container {
+  margin: auto 5%;
+  text-align: center;
+}
+
+/* Header Styles */
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header, .subHeader {
+  margin: 0;
+  text-align: left;
+}
+
+/* Filter Styles */
+.filters {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+/* Table Styles */
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+/* Status Indicators */
+.onlineStat {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px; 
+}
+
+.online {
+  background-color: green; 
+}
+
+.offline {
+  background-color: red;
+}
+
+/* Status Cell Styles */
+.statusCell {
+  background-color: #f3f0f0;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+/* Health Dot */
+.health-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid transparent; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem; 
+}
+
+/* Multi Item Span */
+.multiItemSpan {
+  display: flex;
+  align-items: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .camera-table-container {
+    margin: auto 2%; 
+  }
+  
+  .filters {
+    flex-direction: column; 
+  }
+  
+  .headerDiv {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+}

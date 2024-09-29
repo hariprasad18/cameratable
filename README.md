@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Camera Management Table Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project is a DataTable component designed for displaying camera data efficiently. It includes various features to enhance user experience and functionality.
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+- **Search Option**: Users can quickly find specific camera data using the search feature.
+- **Location and Status Filters**: The table allows filtering of camera data based on location and operational status.
+- **Pagination**: The component includes pagination to manage large datasets effectively, allowing users to navigate through pages easily.
+- **Skip to First/Last Record**: Users can skip directly to the first or last record for quicker navigation.
+- **Action Buttons**: Each record has action buttons for updating the status or deleting a camera. Upon clicking these buttons, a confirmation popup will display, ensuring the user confirms the action.
+- **Responsiveness**: The table is designed to be fully responsive, ensuring usability across all devices.
+- **Webpack Bundling**: The project uses Webpack for efficient asset bundling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## API Documentation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Update API Issue
 
-### `npm test`
+There is currently an issue with the Update API. Despite using the token and payload provided, the API returns a 404 error. This problem needs to be addressed to ensure proper functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hariprasad18/cameratable.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd cameratable
 
-### `npm run eject`
+### Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Run the app in development mode:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Acknowledgments
 
-## Learn More
+We appreciate your interest and support. Your feedback and contributions are invaluable in making this project better.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you find this project helpful, please consider starring the repository or sharing it with others. Together, we can improve and expand its capabilities!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to reach out if you have any questions, suggestions, or issues. Happy coding!
+
+## Thank You
+
+Thank you for reviewing the Assignment. I appreciate your time and consideration in evaluating my work.
+
+If you have any questions or require further clarification about the Assignment, please feel free to reach out. I look forward to your feedback!
+
+Best regards,  
+Hari Prasad Kethini
