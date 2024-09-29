@@ -41,6 +41,13 @@ npm install
 
 npm start
 
+## Acknowledgments
+
+We appreciate your interest and support. Your feedback and contributions are invaluable in making this project better.
+
+If you find this project helpful, please consider starring the repository or sharing it with others. Together, we can improve and expand its capabilities!
+
+Feel free to reach out if you have any questions, suggestions, or issues. Happy coding!
 
 ## Thank You
 
